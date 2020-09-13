@@ -10,4 +10,7 @@ validateNK = () => {
         elemento = document.getElementById("estrella-de-mar-audio")
         elemento.play()
     }
+    else {
+        alert('¡Respuesta incorrecta!')
+    }
 }
